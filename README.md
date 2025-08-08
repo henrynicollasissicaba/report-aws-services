@@ -9,19 +9,31 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 ## Descrição do projeto
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
+
 Etapa 1:
+
 -> Ferramenta: Amazon EC2 Spot Instances
+
 -> Foco: Otimização de custos computacionais para processamento de dados de pesquisa
+
 -> Descrição: Utilização de instâncias spot do Amazon EC2 para tarefas de pesquisa, simulações de modelagem molecular e testes não críticos. Essas instâncias oferecem até 90% de economia em comparação com instâncias sob demanda, sendo ideais para workloads tolerantes a interrupções.
 
+
 Etapa 2:
+
 -> Ferramenta: Amazon S3 Intelligent-Tiering
+
 -> Foco: Otimização de armazenamento de dados
+
 -> Descrição: Ideal para armazenar grandes volumes de dados de ensaios clínicos, exames laboratoriais e relatórios regulatórios, sem precisar de intervenção manual para reduzir custos com armazenamento inativo.
 
+
 Etapa 3:
+
 -> Ferramenta: AWS Trusted Advisor
+
 -> Foco: Recomendações de otimização de custos e segurança
+
 -> Descrição: O serviço fornece alertas em tempo real para instâncias subutilizadas, balanceamento de carga ineficiente, gastos desnecessários com armazenamento e otimizações de segurança, garantindo um uso inteligente e econômico da nuvem.
 
 ## Conclusão
